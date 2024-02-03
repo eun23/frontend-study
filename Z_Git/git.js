@@ -73,7 +73,7 @@
   : 20240128 lsa
 
 ? git push
-  : 로컬 변경사항을 리모트 저장소에 업로드
+  : 로컬 변경사항을 리모트 저장소에 업로드s
   : git push origin main
 
 ? git pull
