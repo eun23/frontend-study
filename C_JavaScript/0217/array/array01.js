@@ -1,4 +1,4 @@
-//! 자바스크립트의 배열
+//! 자바스크립트의 배열 
 
 //! 1. 배열이란?
 // 배열(Array)은 '여러 개'의 값을 '순차적'으로 나열한 자료 구조
@@ -141,5 +141,5 @@ let sortArray = fruits.sort();
 console.log(sortArray); // [ 'Apple', 'Banana', 'Strawberry' ]
 
 // reverse(): 배열의 요소의 순서를 반대로 정렬 (내림차순)
-let reverseArray = fruits.reverse();
+let reverseArray = fruits.reverse(); 
 console.log(reverseArray); // [ 'Strawberry', 'Banana', 'Apple' ]

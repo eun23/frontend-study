@@ -27,14 +27,14 @@ function countPassingScores(scores) {
   return scores.filter(score => score >= 60).length;
 }
 
-console.log(countPassingScores(scores)); //5
+console.log(countPassingScores(scores)); //5  
 
 //? A부터 B까지 더하는 함수
 
 // A부터 B까지의 범위를 지정 -> 범위 안에 있는 숫자를 모두 더하는 함수 구현
 function sumAll(a, b) {
   let sum = 0;
-  for (let i = a; i <= b; i++) {
+  for (let i = a; i <= b; i++) {  
     sum += i;
   }
   return sum;

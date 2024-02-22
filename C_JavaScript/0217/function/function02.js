@@ -71,7 +71,7 @@ function greet(name = '이승아'){
   console.log(`안녕하세요, ${name}님`);
 }
 
-greet(); // 안녕하세요, 이승아님
+greet(); // 안녕하세요, 이승아님  
 greet('이도경'); // 안녕하세요, 이도경님
 
 // 2. 나머지 매개변수
@@ -80,7 +80,7 @@ greet('이도경'); // 안녕하세요, 이도경님
 // : 매개변수명 앞에 ...을 붙여 정의
 
 function print(...numbers) {
-  console.log(numbers);
+  console.log(numbers);  
 }
 
 console.log(print(1, 2, 3, 4, 5));

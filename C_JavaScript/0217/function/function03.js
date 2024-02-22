@@ -50,14 +50,14 @@ newNumbers = numbers.map(function(value) {
 })
 
 console.log(newNumbers); // [ 74529, 2704, 10609, 1024, 3249 ]
-// - 기존의 배열과 요소의 수가 일치 (길이가 같다.)
+// - 기존의 배열과 요소의 수가 일치 (길이가 같다.)  
 
 // 3. filter()
 // : 배열이 가지는 함수
 // : 콜백 함수에서 리턴하는 값이 true인 것들만 모아서 새로운 배열을 만드는 함수
 
 const array = [0, 1, 2, 3, 4, 5];
-const evenNumbers = array.filter(function(value) {
+const evenNumbers = array.filter(function(value) {  
   return value % 2 === 0;
 })
 
