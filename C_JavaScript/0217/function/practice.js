@@ -30,7 +30,6 @@ function countPassingScores(scores) {
 console.log(countPassingScores(scores)); //5  
 
 //? A부터 B까지 더하는 함수
-
 // A부터 B까지의 범위를 지정 -> 범위 안에 있는 숫자를 모두 더하는 함수 구현
 function sumAll(a, b) {
   let sum = 0;
