@@ -20,7 +20,7 @@ console.log(doubleNumbers);
 // scores라는 이름의 숫자 배열을 생성하고, 임의의 점수를 요소로 채움
 // countPassingScores라는 함수를 작성
 // 이 함수는 scores 배열을 매개변수로 받아, 60점 이상인 점수의 개수를 반환
-// countPassingScores 함수를 사용하여 60점 이상인 점수의 개수를 계산하고, 그 결과를 출력
+// countPassingScores 함수를 사용하여 60점 이상인 점수의 개수를 계산하고, 그 결과를 출력 
 const scores = [10, 25, 30, 45, 50, 65, 70, 85, 90, 100];
 
 function countPassingScores(scores) {
@@ -28,7 +28,7 @@ function countPassingScores(scores) {
 }
 
 console.log(countPassingScores(scores)); //5  
-
+  
 //? A부터 B까지 더하는 함수
 // A부터 B까지의 범위를 지정 -> 범위 안에 있는 숫자를 모두 더하는 함수 구현
 function sumAll(a, b) {

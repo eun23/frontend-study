@@ -1,6 +1,6 @@
 //! 배열의 기본 개념 복습    
 // 배열 생성: 빈 배열과 숫자, 문자열, 불리언 값을 포함하는 배열 각각을 생성
-let emptyArray = [];
+let emptyArray = [];  
 let mixedArray = [1, 'Hello', true];
 
 // 배열 요소 접근: 주어진 배열 let fruits = ['Apple', 'Banana', 'Cherry'];에서 'Banana'를 출력하는 코드를 작성
